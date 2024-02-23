@@ -1,7 +1,7 @@
 // 4 - Ler 2 valores e escrever o maior deles.
 
-let valor1 = prompt("Digite o primeiro valor: ");
-let valor2 = prompt("Digite o segundo valor: ");
+let valor1 = 9;
+let valor2 = 9;
 
 valor1 = Number(valor1);
 valor2 = Number(valor2);

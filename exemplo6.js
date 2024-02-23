@@ -1,11 +1,9 @@
 // 6 - Ler 3 valores e escrever o maior deles.
 
-let valor1 = prompt("Digite 1º valor: ");
-let valor2 = prompt("Digite 2º valor: ");
-let valor3 = prompt("Digite 3º valor: ");
+let valor1 = 5;
+let valor2 = 10;
+let valor3 = 3;
 
-valor1 = Number(valor1);
-valor2 = Number(valor2);
-valor3 = Number(valor3);
+let maxValor = Math.max(valor1, valor2, valor3)
 
-Math.max([valor1,valor2,valor3]);
+console.log(`O número ${maxValor} é o maior valor`);
